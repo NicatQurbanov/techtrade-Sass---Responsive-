@@ -79,25 +79,156 @@ main {
   "sec6 sec6";
 }
 
+/* first section */
+
+.section__container {
+   width: 75%;
+  margin: 0 auto;
+}
+
+.section__header {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+.section__button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.big {
+  width: 240px;
+  height: 50px;
+}
+
+.small {
+  width: 160px;
+  height: 50px;
+}
+
+.section__button:hover {
+  background-color: var(--second-Color);
+  border: 1px solid var(--second-Color)
+}
+
 .section-one {
  grid-area: sec1;
+ background-color: var(--main-Color);
+ display: flex;
+ align-items: center;
 }
+
+/* second section */
 
 .section-two {
  grid-area: sec2;
+ display: flex;
+ align-items: center;
 }
+
+/* third section */
 
 .section-three {
  grid-area: sec3;
+ padding: 100px 0;
 }
+
+
+.section-three__header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.section-three__list-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 65%;
+  margin: 80px auto 0;
+}
+
+.section-three__lists {
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 285px;
+  height: 380px;
+  padding: 20px;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.list__header {
+  font-weight: bold;
+}
+
+.list__paragraph {
+  margin-top: 20px;
+}
+
+.section-three__lists:hover {
+  border: none;
+  background-color: var(--main-Color);
+  color: white;
+  transform: scale(1.1, 1.1);
+}
+
+
+/* fourth section */
 
 .section-four {
  grid-area: sec4;
+ display: flex;
+ align-items: center;
+ position: relative;
 }
+
+.section-four svg {
+  position: absolute;
+  left: 50px;
+  z-indeX: -1;
+}
+
+/* fifth section */
 
 .section-five {
  grid-area: sec5;
+ background-color: var(--main-Color);
+ display: flex;
+ align-items: center;
+ line-height: 2.8em;
 }
+
+
+.section-five p {
+  text-align: left;
+}
+
+.section__paragraph {
+  color: white;
+  line-height: 1.2rem;
+  margin-top: 15px;
+}
+
+.three__button {
+  margin-top: 70px;
+}
+
+/* sixth section */
 
 .section-six {
  grid-area: sec6;
