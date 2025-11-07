@@ -82,7 +82,7 @@ main {
 /* first section */
 
 .section__container {
-   width: 75%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -224,6 +224,7 @@ main {
   color: white;
   line-height: 1.2rem;
   margin-top: 15px;
+  font-size: 14px;
 }
 
 .three__button {
