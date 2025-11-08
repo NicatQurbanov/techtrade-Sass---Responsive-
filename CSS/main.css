@@ -82,13 +82,13 @@ main {
 /* first section */
 
 .section__container {
-  width: 90%;
+  width: 81%;
   margin: 0 auto;
 }
 
 .section__header {
   color: white;
-  font-size:  3rem;
+  font-size:  2.8rem;
   font-weight: 600;
   text-align: center;
 }
@@ -110,12 +110,12 @@ main {
 }
 
 .big {
-  width: 240px;
+  width: 300px;
   height: 50px;
 }
 
 .small {
-  width: 160px;
+  width: 180px;
   height: 50px;
 }
 
@@ -212,7 +212,7 @@ main {
  background-color: var(--main-Color);
  display: flex;
  align-items: center;
- line-height: 2.8em;
+ line-height: 3em;
 }
 
 
@@ -247,7 +247,7 @@ main {
   margin-top: 130px;
 }
 
-.section-six__icons-container {
+.icons-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -284,7 +284,7 @@ main {
   border: 1px solid gray;
 }
 
-.input-container input[type="submit"] {
+.button--main-Color {
   background-color: var(--main-Color);
   color: white;
   border: none;

@@ -50,8 +50,26 @@
    margin-bottom: 30px;
 }
 
+.section-six {
+    display: flex;
+    align-items: center;
+}
+
 .section-six .section__container {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: center;
+}
+
+.section-six .section__container svg, .section-six .section__container  > ul {
+    width: 50%;
+}
+
+.visitcard {
+    width: 230px;
+    height: auto;
+    background-color: var(--main-Color);
+    color: white;
+    padding: 10px;
 }
