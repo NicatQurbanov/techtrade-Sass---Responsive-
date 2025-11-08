@@ -18,8 +18,11 @@ main {
     background-color: white;
     align-items: start;
     position: relative;
-    display: flex;
-    align-items: center;
+    overflow: hidden;
+}
+
+.section-one svg { 
+    width:
 }
 
 .icons-container {
