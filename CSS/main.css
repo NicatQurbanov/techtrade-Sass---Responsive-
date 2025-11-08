@@ -237,7 +237,7 @@ main {
  grid-area: sec6;
 }
 
-.section-six__container {
+.form__container {
   display: grid;
   width: 80%;
   margin: 0 auto;
