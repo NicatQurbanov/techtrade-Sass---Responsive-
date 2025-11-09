@@ -1,3 +1,5 @@
+
+
 .section__container {
  padding: 25px;
 }
@@ -69,7 +71,7 @@
 .visitcard {
     width: 230px;
     height: auto;
-    background-color: var(--main-Color);
+    background-color: #35A6B4;
     color: white;
     padding: 10px;
 }

@@ -34,3 +34,7 @@ main {
 
 }
 
+input[type="file"] {
+    display: none;
+}
+
